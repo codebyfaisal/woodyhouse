@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --color-brand: #004B60;
+    --bg-nav: linear-gradient(171.8deg, #004B60 13.5%, #003344 78.6%);
+    --bg-body: rgba(130, 139, 141, 0.116);
+    --color-heading: #003544;
+    --color-placeholder: rgba(0, 59, 79, 0.7);
+    --bg-footer: #002B36;
+    --color-white: #ffffff;
+    --color-light-white: #ffffffcc;
+    --color-footer: #eee;
+    --font: "Raleway", sans-serif;
+}

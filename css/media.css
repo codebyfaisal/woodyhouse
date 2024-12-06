@@ -1,0 +1,40 @@
+@media(width < 576px) {
+    .items .card,
+    .category {
+        width: 90% !important;
+    }
+
+    .services {
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(-10%);
+    }
+
+    .custom-services {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.5rem !important;
+        transform: translateX(-5%);
+    }
+your presence
+    #faq .intro-text h1 {
+        text-wrap: wrap !important;
+    }
+
+}
+
+@media(width < 992px) {
+    .nav-link {
+        width: max-content;
+    }
+}
+
+@media(width >=768px) {
+    .hero-content {
+        width: 50%;
+    }
+
+    .search {
+        width: 50% !important;
+    }
+}

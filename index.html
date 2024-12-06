@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/icons/favicon.png" type="image/x-icon">
+    <title>Woody House</title>
+
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/theme.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+</head>
+
+<body>
+    <!-- * -------- Navbar -------- -->
+    <header class="navbar" id="header">
+        <div class="container d-flex justify-content-between">
+            <div class="header-socials">
+                <div class="d-flex justify-content-center gap-2">
+                    <a href="https://www.x.com" class="icon" target="_blank"><img src="./assets/icons/twitter.png"
+                            alt="twitter" /></a>
+                    <a href="https://www.facebook.com" class="icon" target="_blank"><img
+                            src="./assets/icons/facebook.png" alt="facebook" /></a>
+                    <a href="https://www.instagram.com" class="icon" target="_blank"><img src="./assets/icons/insta.png"
+                            alt="insta" /></a>
+                </div>
+            </div>
+            <div class="d-flex">
+                <a href="https://web.whatsapp.com" class="header-contact icon" target="_blank"><img
+                        src="./assets/icons/phone.png" alt="whatsapp" /></a>
+                <a href="https://web.whatsapp.com" target="_blank"> +92 329 9234564</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- * -------- Navbar -------- -->
+    <nav class="navbar navbar-expand-lg position-sticky top-0 z-3" id="navbar">
+        <div class="container">
+            <a href="./" class="brand-logo h4 mt-2 text-white fw-bold">
+                <span class="py-1 px-2 me-1 bg-white">Woody</span>House
+            </a>
+
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="las la-bars fs-3"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav mx-auto gap-1 gap-lg-4 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#search" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Categories
+                        </a>
+                        <ul class="dropdown-menu border-0">
+                            <li><a class="dropdown-item mt-2" href="#categories">Bedroom</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">Dining Room</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">Office</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">Dresser</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">Study</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">Kitchen</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">Wardrobe</a></li>
+                            <li><a class="dropdown-item mt-2" href="#categories">3 Seater Sofa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#popular">Popular</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Services
+                        </a>
+                        <ul class="dropdown-menu border-0">
+                            <li>
+                                <a class="dropdown-item mt-2" href="#">Residential Design</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item mt-2" href="#">Custom products</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item mt-2" href="#">Corporate Design</a>
+                            </li>
+                            <li><a class="dropdown-item mt-2" href="#">Installation</a></li>
+                            <li>
+                                <a class="dropdown-item mt-2" href="#">Commercial Design</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item mt-2" href="#">Catalogue products</a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item mt-2" href="#">Full home interiors</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex gap-3 my-4 my-lg-0">
+                    <a class="icon"><img src="./assets/icons/heart.png" alt="wishlist" /></a>
+                    <a class="icon"><img src="./assets/icons/cart.png" alt="Cart" /></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true">
+        <!-- * -------- Hero -------- -->
+        <section id="hero" class="container-fluid d-flex justify-content-center align-items-center">
+            <div class="hero-content p-4 text-center bg-white bg-opacity-75">
+                <h1>Transform Your Space with Stylish Furniture</h1>
+                <p>Discover our curated collection of high-quality, modern furniture designed to elevate your home
+                    and office. Find the perfect pieces to match your style and create a space you'll love.</p>
+                <a href="https://web.whatsapp.com" target="_blank"
+                    class="whatsapp-btn btn icon p-2 text-white rounded-3"><img src="./assets/icons/whatsapp-btn.png"
+                        alt="">
+                    whatsapp</a>
+            </div>
+        </section>
+
+        <!-- * -------- categories -------- -->
+        <section id="categories" class="my-sm-5">
+            <div class="container">
+                <!-- advantages -->
+                <div class="row d-none d-sm-block">
+                    <div class="advantages d-flex justify-content-center gap-2 flex-wrap gap-lg-4">
+                        <div class="advantage d-flex align-items-center gap-1 py-2 px-3 rounded-4">
+                            <img src="./assets/icons/truck.png" alt="advantage" class="mb-1">
+                            <span class="mt-2">Fast delivery</span>
+                        </div>
+                        <div class="advantage d-flex align-items-center gap-1 py-2 px-3 rounded-4">
+                            <img src="./assets/icons/custom.png" alt="advantage">
+                            <span>Customizable Options</span>
+                        </div>
+                        <div class="advantage d-flex align-items-center gap-1 py-2 px-3 rounded-4">
+                            <img src="./assets/icons/price.png" alt="advantage">
+                            <span>Affordable Prices</span>
+                        </div>
+                        <div class="advantage d-flex align-items-center gap-1 py-2 px-3 rounded-4">
+                            <img src="./assets/icons/lock.png" alt="advantage">
+                            <span>Reliability</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- search -->
+                <div class="row">
+                    <div class="search d-flex align-items-center my-5 mx-auto w-75 rounded-5">
+                        <input type="search" id="search" placeholder="Search for Product"
+                            class="p-3  bg-transparent w-100">
+                        <span class="icon">
+                            <img src="./assets/icons/search.png" alt="search">
+                        </span>
+                    </div>
+                </div>
+                <!-- intro text -->
+                <div class="row">
+                    <div class="intro-text d-flex align-items-center mb-3 mx-auto col-10 col-sm-12">
+                        <h1>Categories</h1>
+                        <div class="divider ms-3 w-100"></div>
+                    </div>
+                </div>
+                <!-- categories -->
+                <div class="row g-1 justify-content-center justify-content-sm-between">
+                    <div class="category col-lg-4 col-md-5 col-sm-6 col-10">
+                        <img src="./assets/img/bed.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Bedroom</p>
+                    </div>
+                    <div class="category col-lg-3 col-md-4 col-sm-6 col-10">
+                        <img src="./assets/img/dining.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Dining Room</p>
+                    </div>
+                    <div class="category col-lg-3 col-md-3 col-sm-6 col-10">
+                        <img src="./assets/img/office.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Office</p>
+                    </div>
+                    <div class="category col-lg-2 col-md-3 col-sm-6 col-10">
+                        <img src="./assets/img/dresser.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Dresser</p>
+                    </div>
+                    <div class="category col-lg-2 col-md-4 col-sm-6 col-10">
+                        <img src="./assets/img/study.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Study</p>
+                    </div>
+                    <div class="category col-lg-3 col-md-5 col-sm-6 col-10">
+                        <img src="./assets/img/wardrope.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Wardrobe</p>
+                    </div>
+                    <div class="category col-lg-4 col-sm-6 col-10">
+                        <img src="./assets/img/kitchen.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">Kitchen</p>
+                    </div>
+                    <div class="category col-lg-3 col-sm-6 col-10">
+                        <img src="./assets/img/3-sofa.png" alt="category" class="rounded-2">
+                        <p class="label py-1 px-2 rounded-2">3 Seater Sofa</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- * -------- Popular -------- -->
+        <section id="popular">
+            <div class="container mt-5 mt-sm-0 py-5">
+                <!-- intro text -->
+                <div class="row">
+                    <div
+                        class="intro-text d-flex align-items-center text-nowrap mb-3 mx-auto ms-4 ms-lg-0 col-10 col-sm-12">
+                        <h1>Popular Items</h1>
+                        <div class="divider ms-0 w-100"></div>
+                    </div>
+                </div>
+
+                <!-- items -->
+                <div class="row gap-3 p-3 items justify-content-center justify-content-md-between text-center">
+                    <!-- this -->
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/bed.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">King Bed</h5>
+                            <p class="card-price">Rs. 205,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/dresser.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">White Dresser</h5>
+                            <p class="card-price">Rs. 75,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/3-sofa.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">3 Seater Sofa</h5>
+                            <p class="card-price">Rs. 105,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart-add.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/chair.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Arm Chair</h5>
+                            <p class="card-price">Rs. 42,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/office.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Grey/Brown Office Table</h5>
+                            <p class="card-price">Rs. 52,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart-add.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/wardrope.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Dark Yellowish Wardrobe</h5>
+                            <p class="card-price">Rs. 81,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/study.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Study Table</h5>
+                            <p class="card-price">Rs. 21,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart-add.png" alt="wishlist">
+                        </a>
+                    </div>
+
+                    <div class="card border-0 p-0 rounded-2" style="width: 19rem;">
+                        <div class="img">
+                            <img src="./assets/img/sofa.png" class="card-img-top" alt="Item">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Blue Sofa</h5>
+                            <p class="card-price">Rs. 53,000</p>
+                            <div class="card-buttons d-flex align-items-center gap-1">
+                                <a class="view-details btn w-100 py-2 rounded-2 fw-bold">View Details</a>
+                                <a class="icon p-2 rounded-1">
+                                    <img src="./assets/icons/cart.png" alt="add-to-cart">
+                                </a>
+                            </div>
+                        </div>
+                        <p class="label rounded-2 py-1 px-2">-13%</p>
+                        <a class="icon add-to-wishlist rounded-2 p-1">
+                            <img src="./assets/icons/heart.png" alt="wishlist">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- * -------- Services -------- -->
+        <section id="services" class="d-flex flex-column justify-content-center align-items-center my-4 h-100 p-4">
+            <div class="container text-white">
+                <!-- intro text -->
+                <div class="row w-100">
+                    <div class="intro-text d-flex justify-content-center align-items-center mb-3 col-12">
+                        <div class="divider w-100 bg-white"></div>
+                        <h2 class="mx-3 h1 text-white text-nowrap">Services We Offer</h2>
+                        <div class="divider w-100 bg-white"></div>
+                    </div>
+                </div>
+
+                <!-- services -->
+                <div class="services d-flex justify-content-center">
+                    <ul>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Residential Design</li>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Custom products</li>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Corporate Design</li>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Installation</li>
+                    </ul>
+                    <ul>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Commercial Design</li>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Catalogue products</li>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Residential Design</li>
+                        <li class="icon"><img src="./assets/icons/check.png" class="m-1">Full home interiors</li>
+                    </ul>
+                </div>
+
+                <!-- intro text -->
+                <div class="row w-100 position-relative mt-5">
+                    <div class="intro-text d-flex justify-content-center align-items-center mb-3 col-12">
+                        <div class="divider w-25 bg-white"></div>
+                        <h2 class="mx-3 text-white text-nowrap">Custom Services</h2>
+                        <div class="divider w-25 bg-white"></div>
+                    </div>
+                    <p class="position-absolute top-50 mt-2 ms-1 h6 text-center">How it Works ?</p>
+                </div>
+
+                <div class="row">
+                    <div class="custom-services d-flex justify-content-center gap-5 mt-4">
+                        <p class="fs-5 text-warning shadow rounded-3 p-2">1. Show up Your Space</p>
+                        <p class="fs-5 text-warning shadow rounded-3 p-2">2. Select Your Design</p>
+                        <p class="fs-5 text-warning shadow rounded-3 p-2">3. Buy with Confidence</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- * -------- About -------- -->
+        <section id="about">
+            <div
+                class="container d-flex align-items-center justify-content-center gap-5 flex-column flex-lg-row my-5 py-5 my-lg-0">
+                <div class="col-10 col-lg-5">
+                    <!-- intro text -->
+                    <div
+                        class="intro-text d-flex justify-content-center align-items-center text-nowrap mb-3 col-10 col-sm-12">
+                        <h1 class="">About Us</h1>
+                        <div class="divider ms-3 w-100"></div>
+                    </div>
+
+                    <div class="about-text">
+                        <p>At WoodyHouse, we are dedicated to transforming spaces with exceptional craftsmanship
+                            and timeless design. Our curated collection features high-quality, handcrafted
+                            furniture that combines elegance with modern functionality.</p>
+                        <p class="mb-4">We believe that furniture should not only enhance your home but also reflect
+                            your
+                            personal style. Explore our range of stylish and durable pieces, and create a space
+                            that is uniquely yours with WoodyHouse.</p>
+                        <a href="#" class="btn view-details read-more d-inline icon" style="padding: 0.7rem 1rem;">Read
+                            more
+                            <img src="./assets/icons/arrow.png" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-10 col-lg-5">
+                    <img src="./assets/img/about.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- * -------- FAQ's -------- -->
+        <section id="faq">
+            <div class="container">
+                <!-- intro text -->
+                <div class="row w-100">
+                    <div class="intro-text d-flex justify-content-center align-items-center col-12">
+                        <div class="divider w-100 d-none d-sm-block"></div>
+                        <h1 class="ps-3 ps-lg-0 mx-lg-3 text-nowrap text-center">Frequently Asked Questions</h1>
+                        <div class="divider w-100 d-none d-sm-block"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container w-100 my-5 mt-4">
+                <div class="accordion d-grid gap-1" id="accordion">
+                    <div class="accordion-item rounded-2 border-0">
+                        <h2 class="accordion-header rounded-2 overflow-hidden">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseTwo">
+                                1. What is your return policy?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                We offer a 30-day return policy on most items. If you're not satisfied with your
+                                purchase, please contact our customer service team to initiate a return. Items must
+                                be
+                                in their original condition and packaging.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item rounded-2 border-0">
+                        <h2 class="accordion-header rounded-2 overflow-hidden">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                2. What is your return policy?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                We offer a 30-day return policy on most items. If you're not satisfied with your
+                                purchase, please contact our customer service team to initiate a return. Items must
+                                be
+                                in their original condition and packaging.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item rounded-2 border-0">
+                        <h2 class="accordion-header rounded-2 overflow-hidden">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                3. Do you offer assembly services?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                Yes, we offer assembly services for an additional fee. You can select this option
+                                during
+                                the checkout process. Our professional team will ensure that your furniture is
+                                assembled
+                                and set up correctly.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item rounded-2 border-0">
+                        <h2 class="accordion-header rounded-2 overflow-hidden">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                                4. Can I customize my furniture?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordion">
+                            <div class="accordion-body">
+                                We offer customization options for certain furniture pieces. Please check the
+                                product
+                                details on our website or contact our customer service team to discuss available
+                                customization options and pricing.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- * -------- Footer -------- -->
+    <footer class="text-md-start pt-5 px-4 px-md-5 justify-content-between">
+        <div class="row g-3">
+            <div class="col-10 col-md-6 me-md-3 col-lg-3 me-lg-0">
+
+                <a href="./" class="brand-logo h4 pt-2 mb-4 d-block text-white fw-bold">
+                    <span class="py-1 px-2 me-1 bg-white fw-bold">Woody</span>House
+                </a>
+
+                <p class="lh-base pt-1">Discover quality and style with WoodyHouse. Your destination for handcrafted
+                    furniture that enhances every space.</p>
+                <p class="lh-base">To enhance your home and office spaces. Contact us for more information or
+                    visit our store.</p>
+            </div>
+            <div class="col-6 col-md-4 ms-md-5 col-lg-3 ms-lg-0 ps-lg-5">
+                <h2 class="m-0">Quick Links</h2>
+                <div class="divider mb-4 w-25 bg-white"></div>
+                <ul class="ps-0">
+                    <li><a href="#categories">Categories</a></li>
+                    <li><a href="#popular">Popular Items</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                    <li><a href="#faq">FAQ's</a></li>
+                </ul>
+            </div>
+            <div class="col-5 col-md-7 col-lg-3 ps-lg-5">
+                <h2 class="m-0">Services</h2>
+                <div class="divider mb-4 w-25 bg-white"></div>
+                <ul class="ps-0">
+                    <li>Custom products</li>
+                    <li>Corporate Design</li>
+                    <li>Commercial Design</li>
+                    <li>Catalogue products</li>
+                    <li>Full home interiors</li>
+                    <li>Installation</li>
+                </ul>
+            </div>
+            <div class="col-10 col-md-4 p-md-0 col-lg-3">
+                <h2 id="contact" class="m-0">Contact Us</h2>
+                <div class="divider mb-4 w-25 bg-white"></div>
+                <ul class="ps-0">
+                    <li class="icon d-flex align-items-center gap-2"><img src="./assets/icons/location.png"
+                            alt="Address"><a href="https://www.googlemap.com" target="_blank">University Road
+                            Peshawar, KPK, Pakistan</a></li>
+
+                    <li class="icon d-flex align-items-center gap-2"><img src="./assets/icons/phone-white.png"
+                            alt="Phone"> +92 329 9234564</li>
+                    <li class="icon d-flex align-items-center gap-2"><img src="./assets/icons/email.png" alt="email"><a
+                            href="mailto:faisal@gmail.com">woodyhouse@gmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="divider bg-white mt-3"></div>
+
+        <div class="row">
+            <div class="d-flex align-items-center justify-content-between my-4">
+                <p class="mb-0 col-8">© 2024 WoodyHouse. All rights reserved. Landing page Created by codebyfaisal.
+                </p>
+                <div class="header-socials d-flex gap-2 col-2 justify-content-end">
+                    <a href="https://www.x.com" target="_blank" class="icon p-2 rounded-2"><img
+                            src="./assets/icons/twitter.png" alt="twitter" /></a>
+                    <a href="https://facebook.com" target="_blank" class="icon p-2 rounded-2"><img
+                            src="./assets/icons/facebook.png" alt="facebook" /></a>
+                    <a href="https://www.instagram.com" target="_blank" class="icon p-2 rounded-2"><img
+                            src="./assets/icons/insta.png" alt="insta" /></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- * -------- Script -------- -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
